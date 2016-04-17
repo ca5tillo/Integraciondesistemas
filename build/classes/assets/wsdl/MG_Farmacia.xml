@@ -1,0 +1,59 @@
+<definitions xmlns:xsd="xsd" xmlns:soap="soap" name="Farmacia">
+<types>
+<xsd:schema></xsd:schema>
+</types>
+<message name="Request_Farmacia">
+<part name="ID" type="xsd:double"/>
+</message>
+<message name="No_requiere_parametros">
+<part name="No_requiere_parametros" type="xsd:string"/>
+</message>
+<message name="Response_Farmacia">
+<part name="Value" type="xsd:string"/>
+</message>
+<message name="Fault">
+<part name="errorconpeticion" type="xsd:string"/>
+</message>
+<portType name="glossaryTerms">
+<operation name="getAll_Farmacia">
+<input message="No_requiere_parametros"/>
+<output message="Response_Farmacia"/>
+<fault message="Fault"/>
+</operation>
+<operation name="getProducto_Farmacia">
+<input message="Request_Farmacia"/>
+<output message="Response_Farmacia"/>
+<fault message="Fault"/>
+</operation>
+</portType>
+<binding languaje="java">
+<soap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http"/>
+<operation name="getAll_Farmacia">
+<input>
+<soap:body use="literal"/>
+</input>
+<output>
+<soap:body use="literal"/>
+</output>
+<fault>
+<soap:fault use="literal"/>
+</fault>
+</operation>
+<operation name="getProducto_Farmacia">
+<input>
+<soap:body use="literal"/>
+</input>
+<output>
+<soap:body use="literal"/>
+</output>
+<fault>
+<soap:fault use="literal"/>
+</fault>
+</operation>
+</binding>
+<service name="CalculatorWSService">
+<port name="10575">
+<soap:address location="127.0.0.1"/>
+</port>
+</service>
+</definitions>

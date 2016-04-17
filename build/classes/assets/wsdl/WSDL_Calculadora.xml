@@ -1,0 +1,108 @@
+<definitions xmlns:xsd="xsd" xmlns:soap="soap" name="Calculadora">
+<types>
+<xsd:schema></xsd:schema>
+</types>
+<message name="Request_Calculadora">
+<part name="A" type="xsd:double"/>
+<part name="B" type="xsd:double"/>
+</message>
+<message name="Response_Calculadora">
+<part name="Value" type="xsd:string"/>
+</message>
+<message name="No_requiere_parametros">
+<part name="No_requiere_parametros" type="xsd:string"/>
+</message>
+<message name="Fault">
+<part name="errorconpeticion" type="xsd:string"/>
+</message>
+<portType name="glossaryTerms">
+<operation name="Calculadora_suma">
+<input message="Request_Calculadora"/>
+<output message="Response_Calculadora"/>
+<fault message="Fault"/>
+</operation>
+<operation name="Calculadora_resta">
+<input message="Request_Calculadora"/>
+<output message="Response_Calculadora"/>
+<fault message="Fault"/>
+</operation>
+<operation name="Calculadora_multiplicacion">
+<input message="Request_Calculadora"/>
+<output message="Response_Calculadora"/>
+<fault message="Fault"/>
+</operation>
+<operation name="Calculadora_division">
+<input message="Request_Calculadora"/>
+<output message="Response_Calculadora"/>
+<fault message="Fault"/>
+</operation>
+<operation name="Calculadora_lista0a10">
+<input message="No_requiere_parametros"/>
+<output message="Response_Calculadora"/>
+<fault message="Fault"/>
+</operation>
+</portType>
+<binding languaje="java">
+<soap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http"/>
+<operation name="Calculadora_suma">
+<input>
+<soap:body use="literal"/>
+</input>
+<output>
+<soap:body use="literal"/>
+</output>
+<fault>
+<soap:fault use="literal"/>
+</fault>
+</operation>
+<operation name="Calculadora_resta">
+<input>
+<soap:body use="literal"/>
+</input>
+<output>
+<soap:body use="literal"/>
+</output>
+<fault>
+<soap:fault use="literal"/>
+</fault>
+</operation>
+<operation name="Calculadora_multiplicacion">
+<input>
+<soap:body use="literal"/>
+</input>
+<output>
+<soap:body use="literal"/>
+</output>
+<fault>
+<soap:fault use="literal"/>
+</fault>
+</operation>
+<operation name="Calculadora_division">
+<input>
+<soap:body use="literal"/>
+</input>
+<output>
+<soap:body use="literal"/>
+</output>
+<fault>
+<soap:fault use="literal"/>
+</fault>
+</operation>
+<operation name="Calculadora_lista0a10">
+<input>
+<soap:body use="literal"/>
+</input>
+<output>
+<soap:body use="literal"/>
+</output>
+<fault>
+<soap:fault use="literal"/>
+</fault>
+</operation>
+</binding>
+<service name="CalculatorWSService">
+<port name="10575">
+<soap:address location="127.0.0.1:10575"/>
+</port>
+</service>
+</definitions>

@@ -1,0 +1,1 @@
+Estos archivo se colocan en un servidor web para que pueda leerlos el sistema

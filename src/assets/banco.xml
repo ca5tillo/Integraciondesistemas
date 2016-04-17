@@ -1,0 +1,94 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<banco>
+
+    <persona id="0111022203330440" categoria="cliente">
+        <nombre>
+Alvaro Ramirez
+        </nombre>
+        <sexo>
+Masculino 
+        </sexo>
+        <saldo>
+2500
+        </saldo>
+    </persona>
+
+    <persona id="0111022203330441" categoria="cliente">
+        <nombre>
+Cristina Hernandez
+        </nombre>
+        <sexo>
+Femenino 
+        </sexo>
+        <saldo>
+1000000  
+        </saldo>
+    </persona>
+    <persona id="0111022203330442" categoria="cliente">
+        <nombre>
+Lucio Perez 
+        </nombre>
+        <sexo>
+Masculino
+        </sexo>
+        <saldo>
+1         
+        </saldo>
+    </persona>
+    <persona id="0111022203330443" categoria="cliente">
+        <nombre>
+Oscar Ruiz
+        </nombre>
+        <sexo>
+Masculino 
+        </sexo>
+        <saldo>
+10500            
+        </saldo>
+    </persona>
+    <persona id="0111022203330444" categoria="cliente">
+        <nombre>
+Evelin Cri
+        </nombre>
+        <sexo>
+Femenino
+        </sexo>
+        <saldo>
+0            
+        </saldo>
+    </persona>
+    <persona id="0111022203330445" categoria="cliente">
+        <nombre>
+Bob Perfecto
+        </nombre>
+        <sexo>
+Masculino
+        </sexo>
+        <saldo>
+100000000000            
+        </saldo>
+    </persona>
+    <persona id="0111022203330446" categoria="cliente">
+        <nombre>
+Iris Segundo
+        </nombre>
+        <sexo>
+Femenino
+        </sexo>
+        <saldo>
+5000000            
+        </saldo>
+    </persona>
+    <persona id="0111022203330447" categoria="cliente">
+        <nombre>
+Bob Mendoza 
+        </nombre>
+        <sexo>
+Masculino
+        </sexo>
+        <saldo>
+6000000          
+        </saldo>
+    </persona>
+ 
+</banco>

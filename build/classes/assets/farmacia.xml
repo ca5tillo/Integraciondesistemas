@@ -1,0 +1,134 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<farmacia>
+
+    <producto id="01010100" categoria="medicamento">
+        <nombre>
+Bencilpenicilina G 
+cristalina  
+        </nombre>
+        <Concentracion>
+Polvo para inyección 
+1,000,000 UI (sal sódica o 
+potásica) en vial  
+        </Concentracion>
+        <presentacion>
+Polvo estéril 
+        </presentacion>
+        <precio>
+2
+        </precio>
+    </producto>
+
+    <producto id="01010101" categoria="medicamento">
+        <nombre>
+Bencilpenicilina G 
+cristalina  
+        </nombre>
+        <Concentracion>
+Polvo para inyección 
+4,000,000 UI (sal sódica o 
+potásica) en vial  
+        </Concentracion>
+        <presentacion>
+Polvo estéril            
+        </presentacion>
+        <precio>
+3
+        </precio>
+    </producto>
+    <producto id="01010110" categoria="medicamento">
+        <nombre>
+Bencilpenicilina G 
+procaínica  
+        </nombre>
+        <Concentracion>
+Polvo para inyección 
+800,000 UI en vial  
+        </Concentracion>
+        <presentacion>
+Polvo estéril            
+        </presentacion>
+        <precio>
+4
+        </precio>
+    </producto>
+    <producto id="01010130" categoria="medicamento">
+        <nombre>
+Dicloxacilina 
+sódica
+        </nombre>
+        <Concentracion>
+Suspensión oral             
+125 mg/5 mL en frasco de 
+100 - 120 mL  
+        </Concentracion>
+        <presentacion>
+Suspensión            
+        </presentacion>
+        <precio>
+5
+        </precio>
+    </producto>
+    <producto id="01010132" categoria="medicamento">
+        <nombre>
+Cloxacilina Sódica
+        </nombre>
+        <Concentracion>
+Polvo para inyección 500 
+mg (sal sódica) en vial  
+        </Concentracion>
+        <presentacion>
+Polvo estéril            
+        </presentacion>
+        <precio>
+4
+        </precio>
+    </producto>
+    <producto id="01010135" categoria="medicamento">
+        <nombre>
+Dicloxacilina 
+sódica  
+        </nombre>
+        <Concentracion>
+Cápsula 500 mg
+        </Concentracion>
+        <presentacion>
+Cápsula            
+        </presentacion>
+        <precio>
+5
+        </precio>
+    </producto>
+    <producto id="01010145" categoria="medicamento">
+        <nombre>
+Amoxicilina
+        </nombre>
+        <Concentracion>
+Cápsula o Tableta oral 
+500 mg  
+        </Concentracion>
+        <presentacion>
+Cápsula            
+        </presentacion>
+        <precio>
+6
+        </precio>
+    </producto>
+    <producto id="01010146" categoria="medicamento">
+        <nombre>
+Amoxicilina 
+trihidrato + ácido 
+clavulánico  
+        </nombre>
+        <Concentracion>
+Tableta 875 mg + 125 mg
+        </Concentracion>
+        <presentacion>
+Tableta            
+        </presentacion>
+        <precio>
+7
+        </precio>
+    </producto>
+ 
+</farmacia>
