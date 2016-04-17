@@ -1,5 +1,5 @@
 # Integracion de sistemas 
-![Icon](https://raw.githubusercontent.com/Miguel-Neo/Integracion/master/src/assets/wsdl/cap.jpg)
+![Icon](https://raw.githubusercontent.com/ca5tillo/Integraciondesistemas/master/src/assets/wsdl/cap.jpg)
 
 
 Java simulacion de un servicio web.
